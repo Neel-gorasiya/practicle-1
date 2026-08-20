@@ -1,0 +1,71 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: white;
+}
+
+.container {
+  width: 98%;
+  min-height: 560px;
+  margin: 10px auto;
+  border: 1px solid #ddd;
+  text-align: center;
+}
+
+.header {
+  background-color: #4f75ad;
+  padding: 15px;
+  height: 93px;
+}
+
+.header h1 {
+  margin: 0;
+  font-size: 42px;
+  color: black;
+}
+
+.header p {
+  margin-top: 12px;
+  color: #8b6262;
+  font-size: 14px;
+}
+
+.about h2,
+.skills h2 {
+  margin: 0;
+  margin-top: 3px;
+  font-size: 20px;
+}
+
+.about p {
+  color: #71677d;
+  font-size: 15px;
+  margin-top: 10px;
+}
+
+.skills ul {
+  width: 100%;
+  margin: 8px 0 15px 0;
+  padding-left: 0;
+  list-style-position: inside;
+}
+
+.skills li {
+  color: #71677d;
+  font-size: 15px;
+  margin: 5px 0;
+}
+
+.footer {
+  margin-top: 10px;
+  color: #71677d;
+  font-size: 15px;
+}
+
+.footer p {
+  margin: 8px;
+}
